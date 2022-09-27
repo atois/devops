@@ -1,6 +1,5 @@
 services:
-  frontend:
-    image: mytest:v1.0
+  mytest:
     build:
       context: ./
       dockerfile: Dockerfile
