@@ -1,8 +1,10 @@
+version: '2'
 services:
   mytest:
     build:
       context: ./
       dockerfile: Dockerfile
-    container_name: mytest
+    image: demo:v1.0.0
+    container_name: demo
     ports:
       - 8082:8081
