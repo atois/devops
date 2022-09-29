@@ -9,7 +9,7 @@ public class TestController {
 
     @GetMapping("/test")
     public String test(){
-        return "love is often the fruit of marriage";
+        return "hate is often the fruit of marriage";
     }
 }
 
